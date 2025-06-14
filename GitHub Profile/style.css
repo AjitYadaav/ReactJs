@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+}
+
+#header{
+    background-color: rgb(26, 26, 192);
+    color:rgb(144, 144, 144);
+    text-align: center;
+}
+
+.card{
+    border:2px solid rgb(143, 117, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom: 20px;
+
+
+}
+.card:hover{
+    box-shadow: 5px 0px 0px rgb(98, 97, 97);
+}
